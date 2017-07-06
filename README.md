@@ -36,7 +36,7 @@ yarn add handy-tooltip
 <div id='hoverdiv'></div>
 ```
 
-3. Go to `handy-notify.css` & copy everything of it into your stylesheet.
+3. Go to `handy-tooltip.css` & copy everything of it into your stylesheet.
 
 4. And here comes the fun part.
 ```javascript
@@ -62,7 +62,7 @@ If you think `Hoverdiv` is not at your desired position, see the [API](#api).
 <div id='hoverdiv'></div>
 ```
 
-3. Go to `handy-notify.css` & then copy everything of it` into your stylesheet.
+3. Go to `handy-tooltip.css` & then copy everything of it` into your stylesheet.
 
 4. And here comes the fun part.
 ```javascript
