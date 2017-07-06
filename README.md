@@ -48,7 +48,7 @@ HandyTooltip({
 
 If you think `Hoverdiv` is not at your desired position, see the [API](#api).
 
-# Usage as jQuery plugin
+# Usage as a jQuery plugin
 
 1. Copy `handy-tooltip-plugin.js` into your project & include it.
 
