@@ -39,13 +39,13 @@ var HandyTooltip = function(options){
 
     if(top < (dheight)+16){
       hoverdiv
-        .removeClass('tooltip_after')
-        .addClass('tooltip_before')
+        .removeClass('handy-tooltip_after')
+        .addClass('handy-tooltip_before')
         .css('top', top+height+10+extraTop);
     } else {
       hoverdiv
-        .removeClass('tooltip_before')
-        .addClass('tooltip_after')
+        .removeClass('handy-tooltip_before')
+        .addClass('handy-tooltip_after')
         .css('top', top-height-10-extraTop);
     }
 

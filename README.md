@@ -31,12 +31,12 @@ or
 yarn add handy-tooltip
 ```
 
-2. Create a div with any `id`.
+2. Create a div with id `hoverdiv`.
 ```html
 <div id='hoverdiv'></div>
 ```
 
-3. Go to `handy.css`, replace `REPLACE_IT` with our new div we just created i.e, `#hoverdiv` & then copy everything of `handy.css` into your stylesheet.
+3. Go to `handy-notify.css` & copy everything of it into your stylesheet.
 
 4. And here comes the fun part.
 ```javascript
@@ -57,12 +57,12 @@ If you think `Hoverdiv` is not at your desired position, see the [API](#api).
 <script src='/handy-tooltip-plugin.js'></script>
 ```
 
-2. Create a div with any `id`.
+2. Create a div with id `hoverdiv`.
 ```html
 <div id='hoverdiv'></div>
 ```
 
-3. Go to `handy.css`, replace `REPLACE_IT` with our new div we just created i.e, `#hoverdiv` & then copy everything of `handy.css` into your stylesheet.
+3. Go to `handy-notify.css` & then copy everything of it` into your stylesheet.
 
 4. And here comes the fun part.
 ```javascript
