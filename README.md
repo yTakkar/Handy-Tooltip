@@ -25,6 +25,7 @@ These screenshots are from [Instagram-clone](https://github.com/yTakkar/Instagra
 ```
 npm install handy-tooltip
 ```
+or
 
 ```
 yarn add handy-tooltip
