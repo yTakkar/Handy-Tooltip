@@ -5,7 +5,7 @@ A very simple & useful toolkit that can be used easily with very simple API. Scr
 1. [Screenshots](#screenshots)
 2. [Requirements](#requirements)
 3. [Usage with npm or Yarn](#usage)
-4. [Usage as a jQuery plugin](#usage-as-a-jquery-position)
+4. [Usage as a jQuery plugin](#usage-as-a-jquery-plugin)
 4. [API](#api)
 
 # Screenshots
