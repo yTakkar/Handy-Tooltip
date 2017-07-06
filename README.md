@@ -103,7 +103,7 @@ If you think `Hoverdiv` is not at your desired position, see the [API](#api).
 
 # API
 ```javascript
-Handy(options:Object)
+HandyTooltip(options:Object)
 options = {
     value,
     selector,
