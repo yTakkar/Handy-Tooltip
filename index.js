@@ -1,11 +1,11 @@
 var $ = require('jquery');
 
-var Handy_tooltip = function(options){
+var HandyTooltip = function(options){
   var defaults = {
     selector: null,
     extraTop: null,
     extraLeft: null,
-    text: null
+    value: null
   };
   var settings = Object.assign({}, defaults, options);
 
@@ -13,44 +13,46 @@ var Handy_tooltip = function(options){
     selector = settings.selector,
     extraTop = settings.extraTop,
     extraLeft = settings.extraLeft,
-    text = settings.text;
+    value = settings.value;
+
+  var hoverdiv = $('#hoverdiv');
 
   $(selector).on('mouseover', function(e){
 
     var 
-      value    = (text == null) ? $(selector).data('description'): text,
+      text    = (value == null) ? $(selector).data('description'): value,
       top      = $(selector).offset().top,
       left     = $(selector).offset().left,
       width    = $(selector).width()/2,
-      dwidth   = $('#hoverdiv').width()/2,
+      dwidth   = hoverdiv.width()/2,
       padding  = parseInt($(selector).css('padding-left')),
-      dpadding = parseInt($('#hoverdiv').css('padding-left')),
+      dpadding = parseInt(hoverdiv.css('padding-left')),
       height   = parseInt($(selector).outerHeight()),
-      dheight  = parseInt($('#hoverdiv').outerHeight());
+      dheight  = parseInt(hoverdiv.outerHeight());
     
-    $('#hoverdiv').text(value);
+    hoverdiv.text(text);
 
-    $('#hoverdiv').css({
+    hoverdiv.css({
       left: left+width-dwidth+padding-dpadding+extraLeft,
       display: "block"
     });
 
     if(top < (dheight)+16){
-      $('#hoverdiv')
-        .removeClass('after')
-        .addClass('before')
+      hoverdiv
+        .removeClass('tooltip_after')
+        .addClass('tooltip_before')
         .css('top', top+height+10+extraTop);
     } else {
-      $('#hoverdiv')
-        .removeClass('before')
-        .addClass('after')
+      hoverdiv
+        .removeClass('tooltip_before')
+        .addClass('tooltip_after')
         .css('top', top-height-10-extraTop);
     }
 
   }).on('mouseleave', function(e){
-    $('#hoverdiv').css('display', 'none');
+    hoverdiv.css('display', 'none');
   });
 
 }
 
-module.exports = Handy_tooltip
+module.exports = HandyTooltip
