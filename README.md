@@ -26,7 +26,6 @@ These screenshots are from [Instagram-clone](https://github.com/yTakkar/Instagra
 npm install handy-tooltip
 ```
 or
-
 ```
 yarn add handy-tooltip
 ```
@@ -46,13 +45,22 @@ HandyTooltip({
     selector: $('.like_btn')  // selector you want tooltip of
 })
 ```
+You can also work with `attributes`.
+```html
+<a href='#' class='link' data-tooltip='Link!' >I am a cool link</a>
+```
+```javascript
+import HandyTooltip from 'handy-notification'
+HandyTooltip({
+    selector: $('.link')  // selector you want tooltip of
+})
+```
 
 If you think `Hoverdiv` is not at your desired position, see the [API](#api).
 
 # Usage as a jQuery plugin
 
 1. Copy `handy-tooltip-plugin.js` into your project & include it.
-
 ```html
 <script src='/handy-tooltip-plugin.js'></script>
 ```
@@ -69,6 +77,13 @@ If you think `Hoverdiv` is not at your desired position, see the [API](#api).
 $('.like_btn').HandyTooltip({
   value: "Like"
 })
+```
+You can also work with `attributes`.
+```html
+<a href='#' class='link' data-tooltip='Link!' >I am a cool link</a>
+```
+```javascript
+$('.like_btn').HandyTooltip()
 ```
 
 If you think `Hoverdiv` is not at your desired position, see the [API](#api).

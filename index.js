@@ -20,7 +20,7 @@ var HandyTooltip = function(options){
   $(selector).on('mouseover', function(e){
 
     var 
-      text    = (value == null) ? $(selector).data('description'): value,
+      text    = (value == null) ? $(selector).data('tooltip'): value,
       top      = $(selector).offset().top,
       left     = $(selector).offset().left,
       width    = $(selector).width()/2,
