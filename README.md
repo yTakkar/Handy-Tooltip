@@ -1,13 +1,12 @@
 # Handy-Tooltip
 A very simple & useful toolkit that can be used easily with very simple API. Screenshots below.
 
-If you're reading on npmjs website, please visit [GitHub page](#https://github.com/yTakkar/Handy-Tooltip) for better documentation!!
+If you're reading on npmjs website, please visit [GitHub page](https://github.com/yTakkar/Handy-Tooltip) for better documentation!!
 
 # Quick links
 1. [Screenshots](#screenshots)
 2. [Requirements](#requirements)
-3. [Usage with npm or Yarn](#usage-with-npm-or-yarn)
-4. [Usage as a jQuery plugin](#usage-as-a-jquery-plugin)
+3. [Usage](#usage)
 4. [API](#api)
 
 # Screenshots
@@ -20,33 +19,33 @@ These screenshots are from [Instagram-clone](https://github.com/yTakkar/Instagra
 # Requirements
 1. jQuery
 
-# Usage with npm or Yarn
+# Usage
 
 1. First install the package with `npm` or `Yarn`.
-
-```
-npm install handy-tooltip
-```
-or
-```
-yarn add handy-tooltip
-```
+    ```
+    npm install handy-tooltip
+    ```
+    or
+    ```
+    yarn add handy-tooltip
+    ```
 
 2. Create a div with id `hoverdiv`.
-```html
-<div id='hoverdiv'></div>
-```
+    ```html
+    <div id='hoverdiv'></div>
+    ```
 
 3. Go to `handy-tooltip.css` & copy everything of it into your stylesheet.
 
 4. And here comes the fun part.
-```javascript
-import HandyTooltip from 'handy-notification'
-HandyTooltip({
-    value: "Like",            // Message to be displayed
-    selector: $('.like_btn')  // selector you want tooltip of
-})
-```
+
+    ```javascript
+    import HandyTooltip from 'handy-notification'
+    HandyTooltip({
+        value: "Like",            // Message to be displayed
+        selector: $('.like_btn')  // selector you want tooltip of
+    })
+    ```
 You can also work with `attributes`.
 ```html
 <a href='#' class='link' data-tooltip='Link!' >I am a cool link</a>
@@ -56,36 +55,6 @@ import HandyTooltip from 'handy-notification'
 HandyTooltip({
     selector: $('.link')  // selector you want tooltip of
 })
-```
-
-If you think `Hoverdiv` is not at your desired position, see the [API](#api).
-
-# Usage as a jQuery plugin
-
-1. Copy `handy-tooltip-plugin.js` into your project & include it.
-```html
-<script src='/handy-tooltip-plugin.js'></script>
-```
-
-2. Create a div with id `hoverdiv`.
-```html
-<div id='hoverdiv'></div>
-```
-
-3. Go to `handy-tooltip.css` & then copy everything of it` into your stylesheet.
-
-4. And here comes the fun part.
-```javascript
-$('.like_btn').HandyTooltip({
-  value: "Like"
-})
-```
-You can also work with `attributes`.
-```html
-<a href='#' class='link' data-tooltip='Link!' >I am a cool link</a>
-```
-```javascript
-$('.like_btn').HandyTooltip()
 ```
 
 If you think `Hoverdiv` is not at your desired position, see the [API](#api).
