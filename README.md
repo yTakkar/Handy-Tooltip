@@ -8,6 +8,7 @@ If you're reading on npmjs website, please visit [GitHub page](https://github.co
 2. [Requirements](#requirements)
 3. [Usage](#usage)
 4. [API](#api)
+5. [Contribute](#contribute)
 
 # Screenshots
 ![alt text](https://raw.githubusercontent.com/yTakkar/Handy-Tooltip/master/screenshots/Snap%202017-05-23%20at%2000.16.50.png)
@@ -83,5 +84,10 @@ options = {
   <dt>extraLeft</dt>
   <dd>If hoverdiv is not at your desired position, adjust this property for left position.</dd>
 </dl>
+
+# Contribute
+Show your support by 🌟 the project!!
+
+Feel free to contribute!!
 
 **Thanks for reading!!**
