@@ -3,6 +3,8 @@ A very simple & useful toolkit that can be used easily with very simple API. Scr
 
 If you're reading on npmjs website, please visit [GitHub page](https://github.com/yTakkar/Handy-Tooltip) for better documentation!!
 
+[![npm version](https://badge.fury.io/js/handy-tooltip.svg)](https://www.npmjs.com/package/handy-tooltip)
+
 # Quick links
 1. [Screenshots](#screenshots)
 2. [Requirements](#requirements)
