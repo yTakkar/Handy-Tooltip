@@ -1,6 +1,6 @@
 {
   "name": "handy-tooltip",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "A handy & useful tooltip that can easily be used with a simple API!!",
   "main": "index.js",
   "scripts": {
