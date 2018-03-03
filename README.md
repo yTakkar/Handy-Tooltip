@@ -16,7 +16,7 @@ If you're reading on npmjs website, please visit [GitHub page](https://github.co
 ![alt text](https://raw.githubusercontent.com/yTakkar/Handy-Tooltip/master/screenshots/Snap%202017-05-23%20at%2000.16.50.png)
 ![alt text](https://raw.githubusercontent.com/yTakkar/Handy-Tooltip/master/screenshots/Snap%202017-05-23%20at%2000.29.37.png)
 
-These screenshots are from [Instagram-clone](https://github.com/yTakkar/Instagram-clone) I created & you can use the code with 5 simple & straight-forward steps!!
+These screenshots are from [React-Instagram-clone-2.0](https://github.com/yTakkar/React-Instagram-clone-2.0)!!
 
 # Requirements
 1. jQuery
